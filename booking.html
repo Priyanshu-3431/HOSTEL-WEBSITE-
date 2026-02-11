@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Room</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body class="auth-body">
+
+<div class="booking-box">
+  <h2>🏨 Hostel Room Booking</h2>
+
+  <input id="name" placeholder="Student Name">
+  <input id="regNo" placeholder="Registration Number">
+
+  <select id="room">
+    <option value="">Select Room</option>
+    <option value="Triple Room">Triple Room</option>
+  </select>
+
+  <select id="duration">
+    <option value="">Select Duration</option>
+    <option value="3">Hostel + Mess (3 Months) - ₹13950</option>
+    <option value="6">Hostel + Mess (6 Months) - ₹26900</option>
+  </select>
+
+  <button onclick="book()">Proceed to Payment</button>
+</div>
+
+
+<script src="auth.js"></script>
+
+</body>
+</html>

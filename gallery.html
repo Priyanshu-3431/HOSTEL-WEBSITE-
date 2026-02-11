@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hostel Gallery</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<script>
+function openLightbox(card){
+  const img = card.querySelector("img");
+  document.getElementById("lightboxImg").src = img.src;
+  document.getElementById("lightbox").style.display = "flex";
+}
+
+function closeLightbox(){
+  document.getElementById("lightbox").style.display = "none";
+}
+</script>
+
+
+<body>
+
+
+<header>
+  <div class="logo">🏫 GP BARH</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <span onclick="closeLightbox()">×</span>
+  <img id="lightboxImg">
+</div>
+
+
+<section class="gallery-section">
+  <h2>📸 Hostel Gallery</h2>
+  <p class="gallery-sub">Our hostel rooms, facilities & campus life</p>
+
+  <div class="gallery-grid">
+
+    
+
+    <div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.2.jpeg">
+    </div>
+
+    <div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.3.jpeg">
+    </div>
+
+    <div class="gallery-card" onclick="openLightbox(this)">
+      <img src="p.4.jpeg">
+    </div>
+
+    <div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.5.jpeg">
+    </div>
+
+    <div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.6.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.7.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.8.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.9.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.10.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.11.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.12.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.13.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.14.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.15.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p16.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.17.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.18.jpeg">
+    </div>
+<div class="gallery-card"onclick="openLightbox(this)">
+      <img src="p.19.jpeg">
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Manage by Aniket</p>
+</footer>
+
+</body>
+</html>
